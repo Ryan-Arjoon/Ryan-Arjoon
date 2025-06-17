@@ -1,74 +1,64 @@
-<!DOCTYPE html>
-<html>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ryan Arjoon</h1>
+      <p class="tagline">Computer Science Student & Developer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Ryan Arjoon Portfolio">
-        <meta name="author" content="Ryan Arjoon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <title>Ryan Arjoon Portfolio</title>
-    </head>
-<!---->
-    <body>
-        <header>
-            <h1>Ryan Arjoon</h1>
-            <nav>
-            <a href="#about">About Me</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            </nav>
-        </header>
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I’m a Computer Science student at Toronto Metropolitan University with experience in cloud programming, data analysis, and software development.
+        I love solving problems with code and building tools that help people.
+      </p>
+    </section>
 
-        <main>
-            <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I am a Computer Science student at Toronto Metropolitan University with experience in cloud programming, data analysis, and software development.
-                Passionate about creating impactful software solutions and continuously learning new technologies.
-            </p>
-            </section>
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Cloud Programmer – RCMP</h3>
+        <span class="date">May 2024 – Present</span>
+        <p>
+          Wrote PowerShell and Python tools for cloud automation in Azure. Managed alerts, automated tagging, and improved documentation.
+        </p>
+      </div>
+      <div class="item">
+        <h3>Business Data Analyst – Ministry of Transportation</h3>
+        <span class="date">May 2023 – Dec 2023</span>
+        <p>
+          Automated SQL reports, led a team of co-ops, and created diagrams and prototypes for fraud detection systems.
+        </p>
+      </div>
+    </section>
 
-            <section id="experience">
-            <h2>Experience</h2>
-            <div class="experience-item">
-                <h3>Cloud Programmer - Royal Canadian Mounted Police</h3>
-                <span>May 2024 - Present</span>
-                <p>
-                Developed PowerShell and Python scripts for cloud resource management, automated tagging, and data retention in Azure.
-                Created documentation and test cases to improve alert handling and cloud resource tracking.
-                </p>
-            </div>
-            <div class="experience-item">
-                <h3>Business Data Analyst - Ministry of Transportation</h3>
-                <span>May 2023 - Dec 2023</span>
-                <p>
-                Automated SQL queries, led a team of co-op students, designed architecture diagrams, and contributed to UX/UI improvements for fraud detection systems.
-                </p>
-            </div>
-            </section>
-            <section id="projects">
-            <h2>Projects</h2>
-            <ul class="projects-list">
-                <li>
-                <div class="project-title">Graphics Based Mini Games</div>
-                <p class="project-description">Java-based mini-games implementing interactive graphics and event handling.</p>
-                </li>
-                <li>
-                <div class="project-title">Airline Reservation System</div>
-                <p class="project-description">A Java application simulating booking, cancellation, and seat management for an airline.</p>
-                </li>
-                <li>
-                <div class="project-title">Online Order Manager</div>
-                <p class="project-description">Java project for managing customer orders, inventory, and reporting.</p>
-                </li>
-            </ul>
-            </section>
-        </main>
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>Graphics-Based Mini Games</h4>
+          <p>Fun Java games using event listeners and graphical UIs.</p>
+        </div>
+        <div class="project-card">
+          <h4>Airline Reservation System</h4>
+          <p>Java desktop app for booking and managing flights.</p>
+        </div>
+        <div class="project-card">
+          <h4>Online Order Manager</h4>
+          <p>Inventory + order tracker in Java with CRUD functionality.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-        <footer>
-            &copy; 2025 Ryan Arjoon. All rights reserved.
-        </footer>
-    </body>
-
+  <footer>
+    <p>&copy; 2025 Ryan Arjoon</p>
+  </footer>
+</body>
 </html>
