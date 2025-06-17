@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
 :root {
-  --bg: #0d1117;
-  --text: #e6edf3;
-  --accent: #58a6ff;
-  --card-bg: #161b22;
-  --border: #30363d;
-  --shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  --radius: 12px;
-  --font: 'Segoe UI', sans-serif;
+  --bg-color: #0e1117;
+  --text-color: #e6edf3;
+  --accent-color: #58a6ff;
+  --font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -16,121 +14,119 @@
 }
 
 body {
-  font-family: var(--font);
-  background: var(--bg);
-  color: var(--text);
+  font-family: var(--font-family);
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
   line-height: 1.6;
 }
 
-.container {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem 1.5rem;
-}
-
-/* Header */
+/* NAV */
 header {
-  background: linear-gradient(135deg, #1f2937, #111827);
-  color: var(--text);
-  padding: 2.5rem 1rem;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-}
-
-header h1 {
-  font-size: 2.7rem;
-  font-weight: 600;
-}
-
-.tagline {
-  font-weight: 300;
-  font-size: 1.1rem;
-  color: #c9d1d9;
-  margin-top: 0.3rem;
-}
-
-nav {
-  margin-top: 1.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav a {
-  color: var(--accent);
+  color: var(--accent-color);
   text-decoration: none;
-  margin: 0 1rem;
-  font-weight: 500;
-  transition: color 0.3s;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #9cdcfe;
+  color: #9bd1ff;
 }
 
-/* Cards */
-.card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: var(--shadow);
-  transition: transform 0.3s ease;
+/* HERO SECTION */
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: linear-gradient(135deg, #161b22 0%, #0e1117 100%);
 }
 
-.card:hover {
-  transform: scale(1.01);
+#hero .container {
+  max-width: 600px;
 }
 
-.card h2 {
-  color: var(--accent);
+#hero h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--accent-color);
+  letter-spacing: 0.05em;
+}
+
+#hero .tagline {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #9bb7ff;
+}
+
+/* CONTENT SECTIONS */
+main {
+  max-width: 800px;
+  margin: 3rem auto 5rem;
+  padding: 0 1rem;
+}
+
+.content-section {
+  margin-bottom: 4rem;
+}
+
+.content-section h2 {
+  font-weight: 600;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.3rem;
 }
 
-/* Experience Items */
-.item {
-  margin-bottom: 1.5rem;
+.content-section p, .content-section ul {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #c5cee0;
+  line-height: 1.5;
 }
 
-.item h3 {
-  font-size: 1.2rem;
+.content-section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
 }
 
-.date {
-  font-size: 0.9rem;
-  color: #8b949e;
-  display: block;
-  margin-bottom: 0.4rem;
-}
-
-/* Projects Grid */
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-}
-
-.project-card {
-  background: #1c2128;
-  border: 1px solid var(--border);
-  padding: 1rem;
-  border-radius: var(--radius);
-  transition: transform 0.3s ease, box-shadow 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(88, 166, 255, 0.2);
-}
-
-.project-card h4 {
-  color: var(--accent);
-  margin-bottom: 0.5rem;
-}
-
-/* Footer */
+/* FOOTER */
 footer {
   text-align: center;
   padding: 2rem 0 1rem;
-  color: #8b949e;
+  color: #5a5f75;
+  font-weight: 300;
   font-size: 0.9rem;
-  border-top: 1px solid var(--border);
+}
+
+/* Responsive font sizes */
+@media (max-width: 600px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
+
+  #hero .tagline {
+    font-size: 1.1rem;
+  }
+  main {
+    margin: 2rem auto 3rem;
+  }
 }
