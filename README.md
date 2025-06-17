@@ -1,16 +1,18 @@
-## Hi there 👋
+## Hi there 👋, I'm Ryan Arjoon
 
-<!--
-**Ryan-Arjoon/Ryan-Arjoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Prev: RBC Software Developer | RCMP Cloud Programmer | MTO Business Analyst
 
-Here are some ideas to get you started:
+- 🏫: Currently Studying Computer Science @Toronto Metropolitan University
+- 💼: Aspiring Software Engineer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 Tech Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,java,python,html,css&perline=5"/>
+</p>
+<br>
+
+## 📫 Feel Free to Reach Out
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ryanarjoon4@gamil.com)
+
+## 🔗 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryan-arjoon-5405381b8/)
