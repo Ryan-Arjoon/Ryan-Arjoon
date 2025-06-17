@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #cce0ff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd633;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  border-bottom: 3px solid #004d99;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #004d99;
+}
+
+/* About me */
+#about p {
+  font-size: 1.1rem;
+}
+
+/* Experience */
+.experience-item {
+  margin-bottom: 1.5rem;
+}
+
+.experience-item h3 {
+  margin: 0;
+  font-weight: 700;
+  color: #222;
+}
+
+.experience-item span {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.experience-item p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Projects */
+.projects-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects-list li {
+  background-color: #e6f0ff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.projects-list li:hover {
+  background-color: #cce0ff;
+}
+
+.project-title {
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #004d99;
+}
+
+.project-description {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #777;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
