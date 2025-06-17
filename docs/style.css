@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+  --bg-color: #0e1117;
+  --text-color: #e6edf3;
+  --accent-color: #58a6ff;
+  --font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+/* NAV */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #9bd1ff;
+}
+
+/* HERO SECTION */
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  background: linear-gradient(135deg, #161b22 0%, #0e1117 100%);
+}
+
+#hero .container {
+  max-width: 600px;
+}
+
+#hero h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--accent-color);
+  letter-spacing: 0.05em;
+}
+
+#hero .tagline {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #9bb7ff;
+}
+
+/* CONTENT SECTIONS */
+main {
+  max-width: 800px;
+  margin: 3rem auto 5rem;
+  padding: 0 1rem;
+}
+
+.content-section {
+  margin-bottom: 4rem;
+}
+
+.content-section h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.3rem;
+}
+
+.content-section p, .content-section ul {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #c5cee0;
+  line-height: 1.5;
+}
+
+.content-section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  color: #5a5f75;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* Responsive font sizes */
+@media (max-width: 600px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
+
+  #hero .tagline {
+    font-size: 1.1rem;
+  }
+  main {
+    margin: 2rem auto 3rem;
+  }
+}
