@@ -43,9 +43,16 @@ nav a {
   transition: color 0.3s ease;
 }
 
+nav img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
 nav a:hover {
   color: #9bd1ff;
 }
+
 
 /* HERO SECTION */
 #hero {
@@ -74,6 +81,38 @@ nav a:hover {
   font-weight: 300;
   font-size: 1.5rem;
   color: #9bb7ff;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 2rem;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.hero-text h1 {
+  margin-bottom: 0.3rem;
+}
+
+.hero-text {
+  max-width: 400px;
+  white-space: nowrap;
 }
 
 /* CONTENT SECTIONS */
