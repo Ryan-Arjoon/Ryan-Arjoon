@@ -7,7 +7,7 @@ Prev: RBC Software Developer | RCMP Cloud Programmer | MTO Business Analyst
 
 ## 🛠 Tech Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,java,python,html,css,github,git,githubactions,postman,vscode&perline=12"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,java,python,html,css,mongodb,github,git,githubactions,postman,vscode&perline=13"/>
 </p>
 <br>
 
