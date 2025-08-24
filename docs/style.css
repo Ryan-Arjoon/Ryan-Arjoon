@@ -148,10 +148,9 @@ main {
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px;
 }
 
 .project-card {
