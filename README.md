@@ -7,9 +7,12 @@ Prev: RBC Software Developer | RCMP Cloud Programmer | MTO Business Analyst
 
 ## 🛠 Tech Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,java,python,html,css&perline=5"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,java,python,html,css,mongodb,github,git,githubactions,postman,vscode&perline=13"/>
 </p>
 <br>
+
+## Leetcode
+![LeetCode Stats](https://leetcard.jacoblin.cool/ryanarjoon?ext=heatmap)
 
 ## 📫 Feel Free to Reach Out
 [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ryanarjoon4@gamil.com)
